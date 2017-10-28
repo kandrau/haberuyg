@@ -1,0 +1,40 @@
+#define g gavat
+#define e enes
+#define k kadirufuk
+#include<stdio.h>
+
+int main() {
+
+ char adam;
+
+  printf("ADAM OLMASINI ISTEDIGIN KISININ ISMINI GIR LEN MQ(BOSLUKLSUZ KUCUK HARFLE )");
+  scanf("%c",&adam);
+
+  switch(adam){
+      case 'k':
+      printf("girdigin kullanici adam zaten moruq baska bisey yaz !");
+      break;
+
+      case 'e':
+      printf("bunun da tasaklari cok buyuk baska birini dene");
+      break;
+
+      case 'g' :
+      printf("Gavatlari adam edemiyoruz imkansiz istemeyin bizden !!");
+      break;
+
+      default:
+      printf("girdiginiz kullanici basariyla adam olmustur. artik evlendirmesi kaldi onuda siz yapin %c",adam);
+
+  }
+
+  return 0;
+
+
+
+
+
+
+
+
+}
